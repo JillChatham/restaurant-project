@@ -1,0 +1,36 @@
+.header {
+	text-align: center;
+}
+
+.menu {
+	background: blue;
+}
+
+.logo {
+}
+
+.location {
+	border: 3px solid white;
+	border-radius: 10px;
+	height: 200px;
+	padding: 1em;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	font-family: helvetica;
+}
+
+span {
+	color: #952c25;
+	font-weight: bold;
+}
+
+.blurb {
+	text-align: left;
+	padding: 1em;
+	/*background-color: #cadd75;*/
+	border-radius: 10px;
+	border: 3px solid white;
+	color: #96a556;
+	font-family: 'The Girl Next Door';
+}
