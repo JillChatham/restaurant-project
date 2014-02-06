@@ -1,3 +1,8 @@
+body {
+
+}
+
+
 .header {
 	text-align: center;
 }
@@ -30,6 +35,7 @@
 span {
 	color: #952c25;
 	font-weight: bold;
+	font-family: helvetica;
 }
 
 .blurb {
@@ -65,4 +71,21 @@ span {
 
 .menu {
 	text-align: center;
+}
+
+/*MAP PAGES*/
+
+.map {
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+.address {
+	font-family: 'The Girl Next Door';
+	text-align: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	background-color: #95a756;
+	height: 160px;
+	padding: 1em;
 }
