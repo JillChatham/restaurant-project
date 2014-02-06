@@ -2,11 +2,12 @@
 	text-align: center;
 }
 
-.menu {
-	background: blue;
-}
 
 .logo {
+}
+
+.nav {
+
 }
 
 .location {
@@ -33,4 +34,16 @@ span {
 	border: 3px solid white;
 	color: #96a556;
 	font-family: 'The Girl Next Door';
+}
+
+.button {
+	background-color: #952c25;
+	border-radius: 10px;
+	border: 2px solid white;
+	font-size: .9em;
+	font-family: 'The Girl Next Door';
+}
+
+.button:hover {
+	background-color: #95a756; 
 }
