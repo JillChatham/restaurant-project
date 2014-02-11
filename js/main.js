@@ -4,8 +4,12 @@ $(".showMapClick").on("click", function () {
 });
 
 // Drop down mission image when "mission" is clicked
+$(".show-mission").hide();
 
-
+$("#mission").on('click', function () {
+	$(".hideForMission").hide();
+	$(".show-mission").slideDown();
+});
 
 
 
@@ -23,7 +27,7 @@ $('.showMapClick').on('click', function (e) {
 		hideMap(whichMap);
 		$(this).removeClass("showing");
 	} else {
-		$(".map").hide();
+		$(".map").slideUp();
 		$(".showMapClick").removeClass("showing");
 		showMap(whichMap);
 		$(this).addClass("showing");
