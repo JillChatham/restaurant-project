@@ -17,6 +17,20 @@
 	padding: 0;
 }
 
+.showMapClick {
+	color: #952c25;
+	font-weight: bold;
+	/*border: 1px solid black;*/
+}
+
+.showMapClick:hover {
+	cursor: hand;
+	cursor: pointer;
+	color: #95a756;
+}
+
+
+
 .location {
 	border: 3px solid white;
 	border-radius: 10px;
@@ -25,12 +39,6 @@
 	background-color: orange;
 	color: white;
 	text-align: center;
-	font-family: helvetica;
-}
-
-span a {
-	color: #952c25;
-	font-weight: bold;
 	font-family: helvetica;
 }
 
@@ -78,6 +86,7 @@ a :hover {
 .map {
 	text-align: center;
 	/*border: 1px solid black;*/
+	margin-top: 1em;
 }
 
 .address {
